@@ -1,0 +1,27 @@
+.message-signin {
+  text-align: center;
+}
+
+.modal-footer {
+  flex-basis: 100%;
+  flex-grow: 1;
+  box-shadow: rgb(0 0 0 / 11%) 0 - 1px;
+  text-align: center;
+  line-height: 1.7rem;
+}
+
+.link {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+}
+
+.email-username-input::placeholder {
+  float: right;
+}
+
+.pi-user {
+  margin-left: 10px;
+}
+
+

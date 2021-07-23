@@ -1,0 +1,34 @@
+<div class="box shadow p-3 mb-5 bg-white rounded">
+  <h2 class="tab-content  font-weight-bold text-center">Hello!</h2>
+  <p class="message-signin lead">Sign into your account here.</p>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <h1 class="signIn-header lead display-3 p-3 mb-3">Sign In</h1>
+    <div class="form-floating mb-3">
+      <input type="email" class="email-username-input form-control" id="EmailfloatingInput" placeholder="Email / Username">
+      <label for="emailfloatingInput">
+        <i class="pi pi-user"></i>
+        Email / Username</label>
+    </div>
+    <div class="form-floating mb-3">
+      <show-hide-password>
+      <input type="password" class="password-input form-control" id="PasswordfloatingInput" placeholder="Password">
+      </show-hide-password>
+      <label for="passwordfloatingInput"></label>
+
+    </div>
+  </div>
+  <div class="signup">
+    <button class="signup-btn btn btn-primary">Sign In</button>
+  </div>
+</div>
+<!--<hr>-->
+<div class="modal-footer container">
+  <p class="lead">Forgot Password</p>
+  <a routerLink="reset-password" class="link link-primary link-hover-underlined text-decoration-underline">Reset</a>
+  <p class="lead">Don't have an account?</p>
+  <a routerLink="register" class="link link-primary link-hover-underlined text-decoration-underline">Sign Up</a>
+</div>
